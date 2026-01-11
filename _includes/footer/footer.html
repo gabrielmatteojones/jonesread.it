@@ -1,41 +1,42 @@
-<footer class="it-footer">
-  <div class="it-footer-main">
-    <div class="container">
-      <section>
-        <div class="row clearfix">
-          <div class="col-sm-12">
-            <div class="it-brand-wrapper">
-              <a href="#">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon }}" alt="{{ site.name }} logo">
-                <div class="it-brand-text">
-                  <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="py-4 border-white border-top">
-        <div class="row">
-          <div class="col-md-6 pb-2">
-            {% include footer/footer-col-1.html %}
-          </div>
-          <div class="col-md-4 offset-md-2 pb-2">
-            {% include footer/footer-col-3.html %}
-          </div>
-        </div>
-      </section>
-    </div>
+<footer>
+			<div class="top">
+				<div class="wrap">
+					
+					<div>
+						<img class="icon" src="https://readingriddle.co.uk/wp-content/themes/reading-riddle/images/icon_signup.svg">
+						<div class="widget_signup"><div style="font-family: 'futura-pt-bold', sans-serif; text-align: center; margin-top: 20px;">
+  <!-- Heading -->
+  <div style="font-size: 23px; margin-bottom: 20px; color: #ffffff; text-transform: uppercase;">
+    Sign up for email updates
   </div>
-  <div class="it-footer-small-prints clearfix">
-    <div class="container">
-      <h3 class="sr-only">Sezione Link Utili</h3>
-      <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
-        {% for footer-link in site.data.t.footer-links[page.lang] %}
-        <li class="list-inline-item"><a href="{{ site.baseurl }}{{ footer-link[1].url }}" title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
+
+  <!-- New Text -->
+  <div style="font-family: 'Futura', sans-serif; font-size: 18px; color: #ffffff; line-height: 1.5; margin-bottom: 20px;">
+    <span style="font-size: 20px; font-weight: bold;">Do you want free activities, ideas and resources?</span><br><br>
+    Sign up to our substack and you will get the latest information about what we are exploring and creating in our quest for history and reading fun.<br><br>
+    <em>Please note you will get all the resources when you choose the <strong>free option</strong>, the paid plans are available if you want, and feel able to, support our work.</em>
   </div>
-</footer>
+
+  <!-- Button -->
+  <a href="https://readingriddle.substack.com/subscribe" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #f1d477; color: #ce3b1a; text-decoration: none; border-radius: 5px; font-size: 25px; font-weight: bold;">
+    SUBSCRIBE
+  </a>
+</div>
+</div>		
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="wrap">
+					<div class="copyright">
+						© Gabriel Jones Reads<ul id="menu-footer-menu" class="menu"><li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-44"><a rel="privacy-policy" href="{{ site.surl }}">Privacy Policy</a></li>
+<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="https://readingriddle.co.uk/terms-and-conditions">Terms and Conditions</a></li>
+<li id="menu-item-1769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1769"><a href="https://readingriddle.co.uk/refund_returns">Refund and Returns Policy</a></li>
+</ul>		
+					</div>
+					<div class="credits">
+						Powered by <a title="bibliowin.it" target="_blank" href="http://bibliowin.it">Bibliowin</a>
+					</div>
+				</div>
+			</div>
+		</footer>
